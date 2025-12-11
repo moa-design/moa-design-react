@@ -1,0 +1,8 @@
+/*CURSOR*/
+body {
+  cursor: url("https://moadesign.com.ar/wp-content/uploads/2024/01/cursor-05.webp"), auto;
+}
+
+a, button {
+  cursor: url("https://moadesign.com.ar/wp-content/uploads/2024/01/cursor-04.webp"), pointer;
+}

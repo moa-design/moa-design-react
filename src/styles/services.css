@@ -1,0 +1,19 @@
+#servicios {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  height: 70vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  border-bottom: #000 solid 1px;
+}
+
+.neg {
+  display: flex;
+  flex-direction: row;
+  gap: 10vh;
+}
+

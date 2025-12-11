@@ -1,0 +1,21 @@
+#portada{
+  margin: 0 auto;
+  border-bottom: 1px solid;
+  border-color: #000;
+  height:80vh;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+}
+
+#portada span{
+  display: block;
+}
+#portada .section-inner button {
+  width: auto;
+  align-self: center; /* asegura que no se estire */
+  display: inline-block;
+}

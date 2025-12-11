@@ -1,0 +1,141 @@
+/* RESET BÁSICO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FONDO GENERAL (ajustalo si querés oscuro) */
+body {
+  margin: 0;
+  font-family: "new-order", sans-serif;
+  background-color: #ffffff; /* o #191919 si querés fondo oscuro */
+  color: #000;
+}
+
+/* QUE ROOT OCUPE TODA LA PANTALLA */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* --- TU CSS GLOBAL --- */
+
+/* BOTONES */
+button{
+  background-color: transparent;
+  padding: 30px 40px;
+  font-size: 15px;
+  font-family: "new-order", Sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px; 
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-width: 1px;
+}
+
+button a {
+  text-decoration: none;
+  color: #000;
+}
+
+button:hover {
+  background: repeating-linear-gradient(
+    90deg,
+    #e8f728 0%,
+    #e8f728 25%,
+    #ffffff 50%,
+    #ffffff 75%,
+    #e8f728 100%
+  );
+  background-size: 200% 100%;
+  animation: moveBtn 1s linear infinite;
+}
+
+/* solo una definición de la animación */
+@keyframes moveBtn {
+  0% {
+    background-position: 200% 0%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+/* HOVERS DEL NAV */
+nav button:hover {
+  border-radius: 0px 40px 40px 0px;
+  background: repeating-linear-gradient(
+    90deg,
+    #e8f728 0%,
+    #e8f728 25%,
+    #ffffff 50%,
+    #ffffff 75%,
+    #e8f728 100%
+  );
+  background-size: 200% 100%;
+  animation: moveBtn 3s linear infinite;
+}
+
+/* FUENTES */
+h1{
+  font-size: 150px;
+  font-family: "new-order", Sans-serif;
+  font-weight: 600;
+  line-height: 140px;
+  letter-spacing: -2px; 
+  color: #000;
+}
+
+h2{
+  font-size: 100px;
+  font-family: "new-order", Sans-serif;
+  font-weight: 600;
+  letter-spacing: -2px; 
+  color: #000;
+  line-height: 1em;
+}
+
+h3{
+  font-size: 40px;
+  font-family: "new-order", Sans-serif;
+  font-weight: 600;
+  letter-spacing: -2px; 
+  color: #000;
+  line-height: 1em;
+}
+
+h4{
+  font-family: "new-order", Sans-serif;
+  font-weight: 400;
+  letter-spacing: -2px; 
+  color: #000;
+  line-height: 1em;
+  font-size: 50px;
+}
+
+.formulario input,
+.formulario textarea{
+  font-size: 1.2em;
+  font-family: "new-order", sans-serif;
+  line-height: 1em;
+  letter-spacing: 1px;
+}
+
+p{
+  font-size: 18px;
+  font-family: "new-order", Sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px; 
+  color: #000;
+}
+
+.section-inner {
+  display:flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 80%;
+     /* opcional pero muy recomendable */
+  margin: 0 auto;
+}

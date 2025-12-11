@@ -1,0 +1,172 @@
+ @media (min-width: 360px) 
+{ 
+  #portada{
+  height: 80vh;
+}
+  #servicios{
+  height: 100vh;
+}
+.trabajos{flex-direction: column;
+gap:30px;}
+
+
+  #banner{
+  height: 30vh;
+  box-sizing: border-box;}
+
+  .nosotros .textonosotros {
+    width: 98%;
+    gap: 20px;
+}
+.nosotros .videonosotros {
+    width: 96%;
+}
+
+.nosotros .videonosotros video {
+    width: 100%;}
+  #nosotros{
+  height: 80vh;}
+
+.nosotros{
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;}
+
+  #contacto{
+  height: 80vh;
+gap:5px;}
+
+  .formulario form {
+    width: 80%;
+    gap: 20px;
+    }
+
+  h1 { font-size: 44px;
+   line-height: 1em; }
+
+  h2 { font-size: 36px;
+   line-height: 0.8em;
+letter-spacing: 0.01em;}
+
+  h3 { font-size: 24px; 
+   line-height: 1em;
+letter-spacing: 0.01em; }
+
+  p{ font-size: 16px; 
+   line-height: 1.3em;
+letter-spacing: 0.01em; }
+  }
+
+  @media (min-width: 768px) 
+{ 
+  #portada{
+  height: 80vh;
+}
+  #servicios{
+  height: 50vh;
+}
+  #banner{
+  height: 30vh;
+}
+  #nosotros{
+  height: 60vh;
+}
+.trabajos {
+        flex-direction: row;}
+
+  #contacto{
+  height: 80vh;
+}
+  h1 { font-size: 80px;
+   line-height: 1em; }
+
+  h2 { font-size: 50px;
+   line-height: 0.8em;
+letter-spacing: 0.01em;}
+
+  h3 { font-size: 26px; 
+   line-height: 1em;
+letter-spacing: 0.01em; }
+
+  p{ font-size: 16px; 
+   line-height: 1.3em;
+letter-spacing: 0.01em; }
+ }
+
+
+ @media (min-width: 1366px) 
+{ 
+  #portada{
+  height: 80vh;
+}
+  #servicios{
+  height: 50vh;
+}
+  #banner{
+  height: 30vh;
+}
+  #nosotros{
+  height: 60vh;
+}
+
+.nosotros {
+        flex-direction: row;}
+
+.trabajos {
+        flex-direction: row;}
+
+  h1 { font-size: 120px;
+   line-height: 1em; }
+
+  h2 { font-size: 80px;
+   line-height: 0.8em;
+letter-spacing: 0.01em;}
+
+  h3 { font-size: 36px; 
+   line-height: 1em;
+letter-spacing: 0.01em; }
+
+  p{ font-size: 16px; 
+   line-height: 1.3em;
+letter-spacing: 0.01em; }
+ }
+
+   @media (min-width: 1920px)
+{ 
+    #portada{
+  min-height: 100vh;
+}
+  #servicios{
+  min-height: 70vh;
+}
+  #banner{
+  min-height: 50vh;
+}
+  #nosotros{
+  min-height: 80vh;
+}
+
+.trabajos {
+        flex-direction: row;}
+
+  #contacto{
+  min-height: 80vh;
+}
+
+  h1 { font-size: 150px;
+   line-height: 1em; }
+
+  h2 { font-size: 100px;
+   line-height: 0.8em;
+letter-spacing: 0.01em;}
+
+  h3 { font-size: 40px; 
+   line-height: 1em;
+letter-spacing: 0.01em; }
+
+  p{ font-size: 18px;
+font-family: "new-order", Sans-serif;
+font-weight: 400;
+letter-spacing: 1px; 
+color: #000; }
+ }

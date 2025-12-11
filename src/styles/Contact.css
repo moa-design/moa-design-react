@@ -1,0 +1,113 @@
+/* ============================= */
+/*        SECCIÓN CONTACTO       */
+/* ============================= */
+
+#contacto {
+  border-top: #000 solid 1px;
+  border-bottom: #000 solid 1px;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 80px;
+}
+
+.texto {
+  gap: 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ============================= */
+/*         FORMULARIO            */
+/* ============================= */
+
+.formulario {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.formulario form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid #000;
+  font-size: 1.2em;
+  font-family: "new-order", sans-serif;
+  line-height: 1.2em;
+  letter-spacing: 1px;
+}
+
+.formboton {
+  width: 100%;
+}
+
+/* ============================= */
+/*          RESPONSIVE           */
+/* ============================= */
+
+@media (min-width: 360px) {
+  #contacto {
+    height: 80vh;
+    gap: 5px;
+  }
+
+  .formulario {
+    width: 90%;
+  }
+
+  .formulario form {
+    width: 80%;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  #contacto {
+    height: 80vh;
+  }
+
+  .formulario {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #contacto {
+    min-height: 80vh;
+    gap: 50px;
+  }
+}
+
+@media (min-width: 1920px) {
+  #contacto {
+    min-height: 80vh;
+    gap: 50px;
+  }
+
+  .formulario input,
+  .formulario textarea {
+    font-size: 1.2em;
+  }
+}

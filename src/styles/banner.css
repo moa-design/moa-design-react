@@ -1,0 +1,31 @@
+/* BANNER FRASE */
+#banner {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 10%;
+  display: flex;
+  align-items: center;
+  height: 40vh;
+
+  /* degradado repetible */
+  background: repeating-linear-gradient(
+    90deg,
+    #e8f728 0%,
+    #e8f728 25%,
+    #ffffff 50%,
+    #ffffff 75%,
+    #e8f728 100%
+  );
+
+  background-size: 200% 100%; /* tamaño mayor para desplazar */
+  animation: banner 10s linear infinite;
+}
+
+@keyframes banner {
+  0% {
+    background-position: 200% 0%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
